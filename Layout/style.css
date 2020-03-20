@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'resume-icons';
+    src: url('../fonts/resume-icons.eot?up73aj');
+    src: url('../fonts/resume-icons.eot?up73aj#iefix') format('embedded-opentype'), url('../fonts/resume-icons.ttf?up73aj') format('truetype'), url('../fonts/resume-icons.woff?up73aj') format('woff'), url('../fonts/resume-icons.svg?up73aj#resume-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'resume-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+    position: absolute;
+    content: "\e900";
+    font-size: 24px;
+    width: 24px;
+    padding: 4px;
+    left: 93%;
+}
+
+.icon-arrow-up:before {
+    content: "\e901";
+}
+
+.icon-geo-point:before {
+    content: "\e902";
+}
+
+.icon-mail:before {
+    content: "\e903";
+}
+
+.icon-phone:before {
+    content: "\e904";
+}
+
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+    width: 100%;
+    height: 100%;
+}
+
+.container_resume {
+    position: relative;
+    width: 100%;
+    max-width: 647px;
+    margin: 0 auto;
+    top: 40px;
+}
+
+.container_info__person {
+    display: flex;
+}
+
+.image_person {
+    height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.info_person {
+    min-width: 217px;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.container_info__person>.info_person {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.fullName,
+.position {
+    font-weight: 500;
+    height: auto;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: #3F3F3F;
+    margin-bottom: 8px;
+    margin-left: 30px;
+}
+
+.position {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    height: 24px;
+    margin-bottom: 27px;
+}
+
+.icon-phone,
+.icon-geo-point,
+.icon-mail {
+    color: #3f3f3f;
+    margin-right: 21.2px;
+    font-size: 16px;
+}
+
+.number_phone {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    height: 17px;
+    color: #3F3F3F;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.email {
+    height: 17px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3F3F3F;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.geo_point {
+    height: 17px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 30px;
+    line-height: 17px;
+    color: #3F3F3F;
+}
+
+.container_section {
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_title {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.4);
+    text-align: left;
+    transition: 0.5s;
+    height: 32px;
+    cursor: pointer;
+}
+
+.button_title {
+    background: rgba(196, 196, 196, 0.0);
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #3F3F3F;
+    padding: 4px 0px 4px 8px;
+}
+
+.section_group {
+    margin-bottom: 24px;
+}
+
+.section_body {
+    display: none;
+    background: #fff;
+}
+
+.icon-arrow-up+.section_body {
+    display: block;
+}
+
+.title {
+    height: 22px;
+    margin-top: 16px;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    line-height: 120%;
+    color: #3F3F3F;
+}
+
+.SubTitle {
+    height: 24px;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    color: #4269A3;
+    margin-top: 4px;
+}
+
+.timeWork {
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A6A6A6;
+}
+
+.listItems_section {
+    margin-top: 6px;
+}
+
+.item_section {
+    margin-left: 16px;
+    color: rgba(196, 196, 196, 0.4);
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.item_section span {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3F3F3F;
+}
+
+.item_section__body {
+    margin-bottom: 32px;
+    margin-right: 16px;
+}
+
+.send {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.button_send {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    width: 146px;
+    margin: 0 auto;
+    height: 36px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-family: GOST UI 2 450 wt;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    background: #232C39;
+    border-radius: 2px;
+    margin-bottom: 44px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 415px) {
+    .container_info__person {
+        flex-wrap: wrap;
+    }
+    .image_person {
+        margin: 0 auto;
+        width: 160px;
+        height: 160px;
+        margin-bottom: 24px;
+    }
+    .fullName,
+    .position {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .button-title {
+        padding: 4px 0 4px 24px;
+    }
+    .icon-arrow-down:before {
+        left: 89%;
+    }
+    .send {
+        text-align: center;
+    }
+    .item_section__body {
+        margin-left: 16px;
+    }
+    .item_section {
+        margin-right: 16px;
+    }
+    .section_group {
+        margin-bottom: 16px;
+    }
+    .info_person_block {
+        margin: 0 auto;
+    }
+    .number_phone,
+    .email,
+    .geo_point {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}

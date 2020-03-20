@@ -1,0 +1,51 @@
+{
+    "fullName": "Artemiy Rak",
+    "position": "FRONTEND DEVELOPER",
+    "phone": "29 565 75 41",
+    "email": "artemiy.rak@mail.ru",
+    "sex": "male",
+    "geoPoint": "BELARUS",
+    "age": 20,
+    "image": "../LivePage/photo.JPEG",
+    "section": [{
+            "title": "Work Experience",
+            "isOpen": true,
+            "items": [{
+                "title": "Andersen",
+                "subTitle": "Junior Frontend Developer",
+                "from": "Jun 2020",
+                "to": "Feb 2020",
+                "items": ["Development and creating complex UI, of cross browser and adaptive applications from scratch for mobile and desktop systems.",
+                    "The application is a convenient search for the desired user's all data comes the from server.",
+                    "Implementing the main page of the Friends app. Implementing the user's page with the transition to the pages of other users. Implementing pagination and filter. The search is based on one or more criteria."
+                ]
+            }]
+        },
+        {
+            "title": "Education",
+            "isOpen": false,
+            "items": [{
+                    "title": "Polots State University",
+                    "subTitle": "Information Technology Software",
+                    "from": "sep 2016",
+                    "to": "Jul 2020"
+                },
+                {
+                    "title": "Glo Academy",
+                    "subTitle": "User Experience",
+                    "from": "Nov 2018",
+                    "to": "Jun 2019",
+                    "items": ["Learn the basics of JavaScript, building a program architecture using object-oriented programming.",
+                        "Learning OOA, working with animation and DOM.",
+                        "Working with OOA and asynchronous requests."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "isOpen": false,
+            "items": [{ "title": "Skills", "items": ["React", "Javascript(es6/es5)", "Redux", "Ajax", "OOA", "HTML", "CSS3", "Webpack", "Rest", "Git", "GitHub", "GitLab"] }]
+        }
+    ]
+}
