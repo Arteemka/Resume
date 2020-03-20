@@ -286,13 +286,6 @@
     .position {
         margin-left: 0px;
         text-align: center;
-        min-width: 0;
-    }
-    .email,
-    .number_phone,
-    .geo_point {
-        margin-left: 33%;
-        margin-right: 30%;
     }
     .button-title {
         padding: 4px 0 4px 24px;
@@ -311,5 +304,14 @@
     }
     .section_group {
         margin-bottom: 16px;
+    }
+    .info_person_block {
+        margin: 0 auto;
+    }
+    .number_phone,
+    .email,
+    .geo_point {
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
